@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "..\\Newsletter"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Newsletter"
+	}
+}
