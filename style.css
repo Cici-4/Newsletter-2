@@ -1,5 +1,5 @@
 /* FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
 
 /* RESET */
 *{
@@ -63,34 +63,67 @@ section{
 
 /* HEADER */
 .img-logo{
-    width: 75px;
-
+    width: 100px;
 }
-/*.title{
+/*.masinfo{
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 101%;
+    height: 20px;
+    min-height: 100px;
+    background-position: center center;
+    border-radius: 10px;
+}*/
+.header .contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+.logo, .icon-menu{
+    margin: 5px;
+}
+.icon-menu{
+    display: block ;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    background:rgba(204, 204, 204, 0.205);
+    text-align: center;
+    line-height: 45px;
+    border-radius: 5px;
+    margin-left: auto;
+    cursor: pointer;
+    
+}
+.nav{
+    position: absolute;
+    top: 20px;
+    left:40%;
+    width:100%;
+    transition: all 0.4s;
+}
+
+.menu{
+    list-style: none;
+    padding:0px ;
+    margin: 0;
+    display: flex;
+}
+.menu__link{
     display: block;
-    font-size: 40px;
-    font-family: monospace;
-    color: #fff;
-    white-space: nowrap;
-    border-right: 4px solid;
-    width: 34ch;
-
-    animation: typing 5s steps(34),
-    blink .5s infinite step-end alternate;
-    overflow: hidden;
-}
-@keyframes typing {
-    from { width: 0;}
+    padding: 15px;
+    background:#080828 ;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
     
 }
-@keyframes blink {
-    50% {border-color: transparent;
+.menu__link:hover {
+background:#ffcd45;
 }
-*/
-
-    
-
+.mostrar{
+    left: 10;
+}
 /*? SECTION FIRST */
+
 .section-first{
     padding-top: 40px;
 }
@@ -113,15 +146,15 @@ section{
     
 }
 .titulo{
-    font-size: 75px;
+    font-size: 80px;
 }
 
 .text-container{
-    color: #fff;
+    color: #fafafa;
     margin-right: 10px;
 }
 .sub-heading{
-    margin: 10px 0px;
+    margin: 20px 0px;
 }
 
 .subtitulo{
@@ -131,6 +164,28 @@ section{
 .img-container-one{
     background-image: url(./img/sede-Pineyro.jpg);
     
+}
+
+.teclado{
+    display: block;
+    font-size: 40px;
+    font-family: monospace;
+    color: rgb(7, 11, 33);
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 16ch;
+
+    animation: typing 5s steps(16),
+    blink .5s infinite step-end alternate;
+    overflow: hidden;
+}
+@keyframes typing {
+    from { width: 0;}
+    
+}
+@keyframes blink {
+    50% {border-color: transparent;
+}
 }
 
 
