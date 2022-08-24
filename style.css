@@ -11,7 +11,7 @@
 
 /* SHARE */
 .bg-gradient{
-    background-image: radial-gradient(circle, #1b6390, #1b6390, #1b6390, #1b6390, #1b6390);
+    background-image: radial-gradient(circle, #2898ee, #2898ee, #2898ee, #2898ee, #2898ee);
     /*background-image: linear-gradient(305deg, #3b4ec3 0, #3b4ec3 50%, #3b4ec3 100%);
 
     : rgb(81,132,250);
@@ -65,15 +65,7 @@ section{
 .img-logo{
     width: 100px;
 }
-/*.masinfo{
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 101%;
-    height: 20px;
-    min-height: 100px;
-    background-position: center center;
-    border-radius: 10px;
-}*/
+
 .header .contenedor{
     display: flex;
     justify-content: space-between;
@@ -122,8 +114,17 @@ background:#ffcd45;
 .mostrar{
     left: 10;
 }
-/*? SECTION FIRST */
+/* SECTION FIRST */
 
+.masinfo{
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 130%;
+    height: 160px;
+    min-height: 100px;
+    background-position: center center;
+    border-radius: 10px;
+}
 .section-first{
     padding-top: 40px;
 }
@@ -141,7 +142,7 @@ background:#ffcd45;
 }
 .wrapper-first{
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     align-items: center;
     
 }
@@ -150,8 +151,9 @@ background:#ffcd45;
 }
 
 .text-container{
-    color: #fafafa;
+    color: #0d18aa;
     margin-right: 10px;
+    
 }
 .sub-heading{
     margin: 20px 0px;
@@ -161,16 +163,17 @@ background:#ffcd45;
     font-size: 25px;
 }
 
-.img-container-one{
+/*.img-container-one{
     background-image: url(./img/sede-Pineyro.jpg);
     
-}
+}*/
+
 
 .teclado{
     display: block;
     font-size: 40px;
     font-family: monospace;
-    color: rgb(7, 11, 33);
+    color: rgb(255, 255, 255);
     white-space: nowrap;
     border-right: 4px solid;
     width: 16ch;
